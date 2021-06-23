@@ -13,10 +13,11 @@ items = [
   Item.new(name = 'Backstage passes to a TAFKAL80ETC concert', sell_in = 10, quality = 100),
   Item.new(name = 'Backstage passes to a TAFKAL80ETC concert', sell_in = 5, quality = 100),
   # This Conjured item does not work properly yet
-  Item.new(name = 'Conjured Mana Cake', sell_in = 3, quality = 6) # <-- :O
+  Item.new(name = 'Conjured Mana Cake', sell_in = 3, quality = 8) # <-- :O
 ]
 gilded = GildedRose.new(items)
 gilded.update_quality
 gilded.imprimir_datos
 gilded.update_quality
-gilded.imprimir_datos
+gilded.imprimir_datos   
+
